@@ -20,7 +20,7 @@ void main() {
   runApp(MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        drawer: Text("Hi flutter "),
+        //drawer: Text("Hi flutter "),
         appBar: AppBar(
             //using some of appbar attributeson
             title: Center(child: Text("appflutter")),
@@ -28,7 +28,7 @@ void main() {
             backgroundColor: Colors.brown,
             leading: Icon(Icons.menu),
             actions: [Icon(Icons.access_alarm), Icon(Icons.accessibility)]),
-        //drawer: Text("Hi flutter "),
+        drawer: Text("Hi flutter "),
         body: Center(
           child: Text("Nancy"),
         ),
